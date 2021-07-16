@@ -66,6 +66,7 @@ export default function AppStack() {
         inactiveTintColor: '#575757',
         style: {
           paddingBottom: 5,
+          // display: 'none',
         }
       }}>
         <Tab.Screen name="Explore" component={HomeStackScreen} options={{
